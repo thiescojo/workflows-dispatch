@@ -1,1 +1,1 @@
-# workflows-dispatch
+This GitHub Actions walks you through how to add user inputs to  workflow_dispatch triggers in your GitHub Actions workflow so they can be run manually with customized input values, from within the GitHub Actions tab in the GitHub web UI.
