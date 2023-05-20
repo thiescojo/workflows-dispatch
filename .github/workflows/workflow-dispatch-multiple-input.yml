@@ -12,7 +12,7 @@ on:
         type: environment
       notify:
         description: "Notify of deployment?"
-        required: yes
+        required: true
         default: false
         type: boolean
 
