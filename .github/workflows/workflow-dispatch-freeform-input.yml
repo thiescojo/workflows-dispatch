@@ -12,12 +12,12 @@ on:
 
 jobs:
   # This workflow contains a single job called "build"
-  build:
+ deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-        run: echo "Deploying to ${{ github.event.inputs.environment }} environment"
+       - run: echo "Deploying to ${{ github.event.inputs.environment }} environment"
 
 
