@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Workflow Dispatch environment Input
+name: Workflow Dispatch multiple Input
 
 on:
   workflow_dispatch:
